@@ -1,5 +1,7 @@
 # replication-materials-yujing-syj
 
+Yujing Sun
+
 The code is written in Python 3.8.8 and all of its dependencies can be installed by running the following in the terminal (with the `requirements.txt` file included in this repository):
 
 ```
