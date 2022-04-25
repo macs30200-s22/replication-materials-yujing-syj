@@ -11,7 +11,7 @@ pip install -r requirements.txt
 - The files used to scrap the data from Reddit are saved in folder `data`. 
 - Use the `communities data download.ipynb` file to download all the subreddits from Reddit.  
 - The data are uploaded here: https://drive.google.com/drive/folders/1z8pn0voDqjsuH3MyAIsEwVf0M3pLPyWe?usp=sharing 
-
+- Covid-19 related data is downloaded by https://covid19.who.int/data. The data is in `WHO-COVID-19-global-data.csv`.
 
 ## Step 2: Sentiment Analysis and Topic Modeling
 
