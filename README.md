@@ -29,4 +29,4 @@ The results show that number of posts in the WFH community is correlated with th
 
   <img src="https://user-images.githubusercontent.com/89925326/165011135-e5570eee-4ef3-4836-90d9-682f3a1b8964.png" width="500" height="300">
 
-After topic modeling, the posts are grouped into several topics, such as job findings, job advertisements, work-life balance, equipment's suggestions (desk, chair, laptop, microphone, software etc), 
+After topic modeling, the posts are grouped into several topics, such as job findings, job advertisements, work-life balance, equipment's suggestions (desk, chair, laptop, microphone, software etc), team and coworkers, mental and physical health, back to office and other advice. The overall sentiment of these topic is positive. People are more negative on the topics such as back to office, health issues, time management and work-life balance.
