@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ## Step 2: Sentiment Analysis and Topic Modeling
 
 - You can import the `WFH sentiment analysis and topic modeling.ipynb` file located in `analysis` folder in this repository to reproduce the analysis.  
-- The results of sentiment analysis are saved into `reddits sentiment and covid-19(with graphs).csv` and `topic sentiment(wfh).csv` files. Then I plot the graph based on the results and save the image in the `excel`.
+- The results of sentiment analysis are saved into `reddits sentiment and covid-19(with graphs).csv` and `topic sentiment(wfh).csv` files. Then I plot the graph based on the results and save the image in the `xlsx`.
 
 ## Initial Findings
 - Sentiment analysis of subreddits in WFH community from March, 13 2020 to April 14, 2022.  
