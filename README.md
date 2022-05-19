@@ -16,9 +16,13 @@ pip install -r requirements.txt
 - The files used to scrap the data from Reddit are saved in folder `data`. 
 - Use the `communities data download.ipynb` file to download all the subreddits from Reddit.  
 - For the replication, you don't need to scrape the data again since it takes some time. The data is uploaded here: https://drive.google.com/drive/folders/1z8pn0voDqjsuH3MyAIsEwVf0M3pLPyWe?usp=sharing. You can directly download the folder.
-- Covid-19 related data is downloaded by https://covid19.who.int/data. The data is in `WHO-COVID-19-global-data.csv`.
+- Covid-19 related data is downloaded by https://covid19.who.int/data. The data is in `WHO-COVID-19-global-data.csv`. I filter the raw data to get monthly new cases data `Covid-19 new cases.csv` that I will use in my analysis part.
 
 ## Step 2: Sentiment Analysis and Topic Modeling
+
+### Part 0: Replication preparation
+
+- In order to rerun all the results smoothly, you should put `requirements.txt`, `new_data` fold(which could be downloaded by the google drive link), `Covid-19 new cases.csv`, `synchronic analysis.py`, `synchronic analysis.ipynb`, `temporal analysis.py`, and `temporal analysis.ipynb` into same path.
 
 ### Part 1: Synchronic analysis
 
@@ -28,7 +32,6 @@ pip install -r requirements.txt
 - You can import the `synchronic analysis.py` located in `analysis` folder to generate the `topic sentiment(wfh) raw.csv`. This file is saved in `output` folder, and is used to plot the sentiment of each topic in Tableau. The more detailed results of sentiment analysis and topic modeling are in `synchronic analysis.ipynb`.
 
 ### Part 2: Temporal analysis
-
 
 - This part contains the following results: 
   -  Monthly sentiment rate, monthly posts number, and Covid-19 new cases. 
