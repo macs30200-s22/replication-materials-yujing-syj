@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ### Part 0: Replication preparation
 
-- In order to rerun all the results smoothly, you should put `requirements.txt`, `new_data` fold(which could be downloaded by the google drive link), `Covid-19 new cases.csv`, `synchronic analysis.py`, `synchronic analysis.ipynb`, `temporal analysis.py`, and `temporal analysis.ipynb` into same path.
+- In order to rerun all the results smoothly, you should put `requirements.txt`, `new_data` folder (which could be downloaded by the google drive link), `Covid-19 new cases.csv`, `synchronic analysis.py`, `synchronic analysis.ipynb`, `temporal analysis.py`, and `temporal analysis.ipynb` into same path.
 
 ### Part 1: Synchronic analysis
 
