@@ -41,7 +41,14 @@ pip install -r requirements.txt
 
 
 
-## Initial Findings
+## Findings
+
+- I plot all the graphs by Tableau. The images are saved in `outputs` folder.
+
+
+
+
+
 - Sentiment analysis of subreddits in WFH community from March, 13 2020 to April 14, 2022.  
 
 ![image](https://user-images.githubusercontent.com/89925326/165013420-a0e64e67-0bcc-4c7b-b592-6e6341c10cfb.png)
