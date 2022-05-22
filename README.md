@@ -46,17 +46,37 @@ pip install -r requirements.txt
 - I plot all the graphs by Tableau. The images are saved in `outputs` folder.
 
 
-
-
-
+   
+### Part 1: Synchronic analysis
+   
+- Topics within r/workfromhome community
+    
+<img src="./outputs/top 11 topics.png" width="500" height="300">
+     
 - Sentiment analysis of subreddits in WFH community from March, 13 2020 to April 14, 2022.  
-
-![image](https://user-images.githubusercontent.com/89925326/165013420-a0e64e67-0bcc-4c7b-b592-6e6341c10cfb.png)
-
-The results show that number of posts in the WFH community is correlated with the number of global Coivd-19 cases, and the correlation is 0.56. For the positive rate of the posts, it is positive correlated (0.45) with the global covid cases. The neutral rate of posts is negative correlated (-0.57) with the severity of pandemic. 
-
-- Sentiment analysis of different topics from WFH community  
-
-  <img src="https://user-images.githubusercontent.com/89925326/165011135-e5570eee-4ef3-4836-90d9-682f3a1b8964.png" width="500" height="300">
-
-After topic modeling, the posts are grouped into several topics, such as job findings, job advertisements, work-life balance, equipment's suggestions (desk, chair, laptop, microphone, software etc), team and coworkers, mental and physical health, back to office and other advice. The overall sentiment of these topics is positive. People are more negative on the topics such as back to office, health issues, time management and work-life balance.
+    
+<img src="./outputs/sentiment analysis of different topics.png" width="600" height="300">
+     
+From the result, “recommendation”, “survey”, “equipment”, “make money online” and “advertisements” are relatively positive compared to other posts. In contrast, “back to office”, “physical and mental health”, “team and coworkers”, “life style and work-life balance” and “time management” are relatively negative topics.    
+   
+### Part 2: Temporal analysis
+    
+- Relationship between post's number and Covid-19 new cases
+     
+<img src="./outputs/trend of monthly posts number and Covid-19 cases.png" width="600" height="300">
+       
+The number of posts follow some similar pattern with the number of Covid-19 new cases in the world. The correlation between Global Covid-19 new cases and the volume of posts is 0.41 and the correlation between percentage change of Global Covid-19 new cases and percentage change of the volume of posts is 0.51.
+    
+- Relationship between posts sentiment and Covid-19  
+    
+<img src="./outputs/trend of monthly posts positive rate and Covid-19 cases.png" width="600" height="400">
+     
+The positive rate is high at the beginning of the pandemic, then the rate falls until the first wave of Covid-19. The posts positive rate is relatively high in the first, second and fourth waves of Covid-19. 
+     
+- Topics for different years
+    
+<img src="./outputs/topic for each year.png" width="600" height="500">
+      
+The change of topics reflects the phenomenon that at first, people like to discuss some urgent issue in terms of working from home. As people have some experience of the new working style, their focus is more diverse and personal. 
+      
+   
