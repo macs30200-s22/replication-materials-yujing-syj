@@ -1,4 +1,4 @@
-# replication-materials-yujing-syj
+# Working remotely as a new norm: How have people's attitudes toward work from home on Reddit changed over the course of the pandemic?
 
 [![DOI](https://zenodo.org/badge/480985442.svg)](https://zenodo.org/badge/latestdoi/480985442)
 
